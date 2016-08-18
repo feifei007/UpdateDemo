@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/update/update.iml" filepath="$PROJECT_DIR$/update/update.iml" />
       <module fileurl="file://$PROJECT_DIR$/updateDeme.iml" filepath="$PROJECT_DIR$/updateDeme.iml" />
       <module fileurl="file://$PROJECT_DIR$/updatefun/updatefun.iml" filepath="$PROJECT_DIR$/updatefun/updatefun.iml" />
-      <module fileurl="file://$PROJECT_DIR$/versionupdate/versionupdate.iml" filepath="$PROJECT_DIR$/versionupdate/versionupdate.iml" />
     </modules>
   </component>
 </project>

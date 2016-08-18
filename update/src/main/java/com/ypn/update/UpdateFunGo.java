@@ -49,7 +49,7 @@ public class UpdateFunGo {
      * 在检查版本的时候，弹出版本更新框
      */
     public void showUpdateDialog() {
-        if (DownloadKey.ToShowDownloadView == DownloadKey.showUpdateView && !DownloadKey.version.equals(GetAppInfo.getAppVersionCode(mContext))) {
+        if (DownloadKey.ToShowDownloadView == DownloadKey.showUpdateView && DownloadKey.version > GetAppInfo.getAppVersionCode(mContext)) {
             showNoticeDialog(mContext);//显示更新弹框
         }
     }
